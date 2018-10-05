@@ -1,7 +1,7 @@
 {
-  "name": "@skyux/sample",
+  "name": "@skyux/avatar",
   "version": "3.0.0-alpha.x",
-  "description": "SKY UX Sample",
+  "description": "SKY UX Avatar",
   "main": "bundles/bundle.umd.js",
   "module": "index.ts",
   "engines": {
@@ -25,7 +25,17 @@
     "url": "https://github.com/blackbaud/skyux-sample/issues"
   },
   "homepage": "https://github.com/blackbaud/skyux-sample#readme",
-  "peerDependencies": {},
+  "peerDependencies": {
+    "@angular/core": "^4.3.6",
+    "@angular/router": "^4.3.6",
+    "@skyux/core": "^3.1.0",
+    "@skyux/i18n": "^3.0.1",
+    "@skyux/errors": "^3.0.0-rc.0",
+    "@skyux/indicators": "^3.0.0-rc.1",
+    "@skyux/forms": "^3.0.0-rc.0",
+    "@skyux/modals": "^3.0.0-rc.0",
+    "rxjs": "^5.4.3"
+  },
   "dependencies": {},
   "devDependencies": {
     "@angular/animations": "4.3.6",
@@ -41,6 +51,10 @@
     "@blackbaud/skyux": "2.26.0",
     "@blackbaud/skyux-builder": "1.24.0",
     "@skyux-sdk/builder-plugin-skyux": "1.0.0-rc.0",
+    "@skyux/errors": "3.0.0-rc.0",
+    "@skyux/indicators": "3.0.0-rc.1",
+    "@skyux/forms": "3.0.0-rc.0",
+    "@skyux/modals": "3.0.0-rc.0",
     "core-js": "2.4.1",
     "rxjs": "5.4.3",
     "ts-node": "3.0.4",
