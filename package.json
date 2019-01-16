@@ -16,12 +16,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blackbaud/skyux-sample.git"
+    "url": "git+https://github.com/blackbaud/skyux-avatar.git"
   },
   "bugs": {
-    "url": "https://github.com/blackbaud/skyux-sample/issues"
+    "url": "https://github.com/blackbaud/skyux-avatar/issues"
   },
-  "homepage": "https://github.com/blackbaud/skyux-sample#readme",
+  "homepage": "https://github.com/blackbaud/skyux-avatar#readme",
   "peerDependencies": {
     "@angular/core": ">=4.3.6",
     "@angular/router": ">=4.3.6",
