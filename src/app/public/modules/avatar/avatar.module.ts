@@ -17,7 +17,7 @@ import {
 
 import {
   SkyAvatarResourcesModule
-} from '../shared';
+} from '../shared/avatar-resources.module';
 
 import {
   SkyAvatarComponent
