@@ -1,3 +1,7 @@
+# 4.0.0-rc.1 (2020-04-18)
+
+- Added bug fixes and features from the `master` branch. [#21](https://github.com/blackbaud/skyux-avatar/pull/21)
+
 # 3.1.0 (2020-03-19)
 
 - Added the `maxFileSize` input to the avatar component. [#17](https://github.com/blackbaud/skyux-avatar/pull/17) (Thanks [blackbaud-conorwright](https://github.com/blackbaud-conorwright)!)
