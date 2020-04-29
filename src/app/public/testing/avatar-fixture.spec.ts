@@ -1,17 +1,20 @@
 //#region Imports
 
 import {
-  Component
-} from '@angular/core';
-
-import {
   TestBed
 } from '@angular/core/testing';
 
 import {
+  Component
+} from '@angular/core';
+
+import {
   SkyAvatarModule
 } from '@skyux/avatar';
-import { SkyAvatarFixture } from './avatar-fixture';
+
+import {
+  SkyAvatarFixture
+} from './avatar-fixture';
 
 //#endregion Imports
 
