@@ -1,3 +1,9 @@
+# 4.0.0-rc.2 (2020-04-30)
+
+### New features
+
+- Added a test fixture for the avatar component to be used in consumer unit tests. [#22](https://github.com/blackbaud/skyux-avatar/pull/22)
+
 # 4.0.0-rc.1 (2020-04-18)
 
 - Added bug fixes and features from the `master` branch. [#21](https://github.com/blackbaud/skyux-avatar/pull/21)
