@@ -10,10 +10,14 @@ describe('Avatar', () => {
   });
 
   it('should match previous screenshot when image is present', (done) => {
-    expect('#screenshot-avatar-img').toMatchBaselineScreenshot(done);
+    expect('#screenshot-avatar-img').toMatchBaselineScreenshot(done, {
+      screenshotName: 'avatar'
+    });
   });
 
   it('should match previous screenshot when initials are present', (done) => {
-    expect('#screenshot-avatar-initials').toMatchBaselineScreenshot(done);
+    expect('#screenshot-avatar-initials').toMatchBaselineScreenshot(done, {
+      screenshotName: 'avatar-initials'
+    });
   });
 });
