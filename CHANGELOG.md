@@ -21,7 +21,7 @@
 
 ### Breaking changes
 
-- Dropped support for `rxjs@5`. Consumers may install `rxjs-compat@^6` to support older versions of `rxjs`. [#15](https://github.com/blackbaud/skyux-avatar/pull/15)
+- Dropped support for `rxjs@5`. Consumers can install `rxjs-compat@^6` to support older versions of `rxjs`. [#15](https://github.com/blackbaud/skyux-avatar/pull/15)
 
 # 3.0.0 (2019-01-11)
 
