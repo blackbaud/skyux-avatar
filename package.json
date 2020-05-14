@@ -21,15 +21,12 @@
   },
   "homepage": "https://github.com/blackbaud/skyux-avatar#readme",
   "peerDependencies": {
-    "@angular/core": "^9.1.3",
-    "@angular/router": "^9.1.3",
-    "@skyux-sdk/testing": "^4.0.0-rc.2",
-    "@skyux/core": "^4.0.0-rc.4",
-    "@skyux/i18n": "^4.0.0-rc.5",
-    "@skyux/errors": "^4.0.0-rc.0",
-    "@skyux/indicators": "^4.0.0-rc.4",
-    "@skyux/forms": "^4.0.0-rc.0",
-    "@skyux/modals": "^4.0.0-rc.4"
+    "@angular/core": "^9.1.7",
+    "@angular/router": "^9.1.7",
+    "@skyux/core": "^4.0.0",
+    "@skyux/i18n": "^4.0.0",
+    "@skyux/errors": "^4.0.0",
+    "@skyux/forms": "^4.0.0"
   },
   "dependencies": {},
   "devDependencies": {
@@ -48,7 +45,7 @@
     "@skyux-sdk/e2e": "4.0.0-rc.1",
     "@skyux-sdk/testing": "4.0.0-rc.3",
     "@skyux/assets": "4.0.0",
-    "@skyux/avatar": "4.0.0-rc.2",
+    "@skyux/avatar": "^4.0.0-rc.2",
     "@skyux/config": "4.0.0",
     "@skyux/core": "4.0.0",
     "@skyux/errors": "4.0.0",
