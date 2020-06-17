@@ -34,7 +34,7 @@ export class SkyAvatarComponent {
    * Indicates whether users can change the image. To select a different image,
    * users click the image or drag another image on top of it,
    * much like the `sky-file-drop` component in the
-   * [file attachment module](https://developer.blackbaud.com/skyux/components/fileattachments).
+   * [file attachment module](https://developer.blackbaud.com/skyux/components/file-attachments/file-attachment).
    */
   @Input()
   public set canChange(value: boolean) {
@@ -47,10 +47,10 @@ export class SkyAvatarComponent {
 
   /**
    * Specifies the name of the record that the avatar represents.
-   * If the `src` property does not specify an image, the component extracts initials
-   * from the first and last words of this name and displays them in place of the missing image.
-   * To ensure that the component extracts the correct initials, specify a name with no prefix
-   * or suffix. You can specify just the initials with a space between them.
+   * If the `src` property does not specify an image, the component displays
+   * initials from the first and last words in the name. To ensure
+   * that the component extracts the correct initials, specify a name with no prefix
+   * or suffix, or just specify initials with a space between them.
    */
   @Input()
   public set name(value: string) {
@@ -80,8 +80,7 @@ export class SkyAvatarComponent {
   public maxFileSize = 500000;
 
   /**
-   * Emits [a `SkyFileItem` object](https://developer.blackbaud.com/skyux/components/avatar#skyfileitem-properties)
-   * when the image is updated.
+   * Emits a `SkyFileItem` object when the image is updated.
    */
   @Output()
   public avatarChanged = new EventEmitter<SkyFileItem>();
