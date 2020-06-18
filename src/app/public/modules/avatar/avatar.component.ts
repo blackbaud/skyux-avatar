@@ -50,7 +50,8 @@ export class SkyAvatarComponent {
    * If the `src` property does not specify an image, the component displays
    * initials from the first and last words in the name. To ensure
    * that the component extracts the correct initials, specify a name with no prefix
-   * or suffix, or just specify initials with a space between them.
+   * or suffix, or just specify initials with a space between them. This property is 
+   * not required, but the component requires either the `name` or `src` property.
    */
   @Input()
   public set name(value: string) {
@@ -62,7 +63,8 @@ export class SkyAvatarComponent {
   }
 
   /**
-   * Specifies an image to display to identify a record.
+   * Specifies an image to display to identify a record. This property is
+   * not required, but the component requires either the `name` or `src` property.
    */
   @Input()
   public set src(value: SkyAvatarSrc) {
