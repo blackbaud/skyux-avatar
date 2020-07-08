@@ -3,12 +3,19 @@ import {
   Component,
   ElementRef,
   Input,
-  OnDestroy
+  OnDestroy,
+  Optional,
+  ViewEncapsulation
 } from '@angular/core';
+
+import {
+  SkyThemeService
+} from '@skyux/theme';
 
 import {
   SkyAvatarAdapterService
 } from './avatar-adapter.service';
+
 import {
   SkyAvatarSrc
 } from './avatar-src';
@@ -20,7 +27,8 @@ import {
   selector: 'sky-avatar-inner',
   templateUrl: './avatar.inner.component.html',
   styleUrls: ['./avatar.inner.component.scss'],
-  providers: [SkyAvatarAdapterService]
+  providers: [SkyAvatarAdapterService],
+  encapsulation: ViewEncapsulation.None
 })
 export class SkyAvatarInnerComponent implements AfterViewInit, OnDestroy {
   public get src(): SkyAvatarSrc {
@@ -42,6 +50,9 @@ export class SkyAvatarInnerComponent implements AfterViewInit, OnDestroy {
     this._name = value;
   }
 
+  @Input()
+  public size: 'large' | 'medium' | 'small';
+
   private viewInitialized: boolean;
 
   private _src: SkyAvatarSrc;
@@ -50,7 +61,8 @@ export class SkyAvatarInnerComponent implements AfterViewInit, OnDestroy {
 
   constructor(
     private elementRef: ElementRef,
-    private adapter: SkyAvatarAdapterService
+    private adapter: SkyAvatarAdapterService,
+    @Optional() public themeSvc?: SkyThemeService
   ) { }
 
   public get initials(): string {

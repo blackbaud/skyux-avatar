@@ -12,4 +12,6 @@ export class AvatarTestComponent {
   public src: SkyAvatarSrc;
 
   public name: string;
+
+  public size: 'large' | 'medium' | 'small';
 }
