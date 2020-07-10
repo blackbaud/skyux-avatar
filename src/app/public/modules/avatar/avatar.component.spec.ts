@@ -35,16 +35,20 @@ import {
 } from './fixtures/avatar.component.fixture';
 
 import {
-  SkyAvatarComponent
-} from './avatar.component';
-
-import {
   SkyAvatarFixturesModule
 } from './fixtures/avatar-fixtures.module';
 
 import {
   MockErrorModalService
 } from './fixtures/mock-error-modal.service';
+
+import {
+  SkyAvatarSize
+} from './avatar-size';
+
+import {
+  SkyAvatarComponent
+} from './avatar.component';
 
 describe('Avatar component', () => {
   let mockThemeSvc: {
@@ -337,7 +341,7 @@ describe('Avatar component', () => {
 
   function validateWrapperSizeClass(
     fixture: ComponentFixture<AvatarTestComponent>,
-    size: 'large' | 'medium' | 'small'
+    size: SkyAvatarSize
   ): void {
     fixture.componentInstance.size = size;
     fixture.detectChanges();
@@ -362,7 +366,7 @@ describe('Avatar component', () => {
   describe('when modern theme', () => {
     function validatePlaceholderClass(
       fixture: ComponentFixture<AvatarTestComponent>,
-      size: 'large' | 'medium' | 'small',
+      size: SkyAvatarSize,
       expectedClass: string
     ) {
       fixture.componentInstance.size = size;

@@ -2,19 +2,30 @@
   (themeSettingsChange)="themeSettingsChange($event)"
 ></sky-docs-demo-control-panel-theme>
 
-<div id="screenshot-avatar-img" style="display: inline-block;">
+<div
+  id="screenshot-avatar-img"
+  style="display: inline-block;"
+>
   <sky-avatar
     [name]="name"
     src="~/assets/avatar.png"
     [canChange]="true"
-  >
-  </sky-avatar>
-</div>
-<div id="screenshot-avatar-initials" style="display: inline-block;">
-  <sky-avatar [name]="name"></sky-avatar>
+  ></sky-avatar>
 </div>
 
-<div id="screenshot-avatar-sizes" style="display: inline-block;">
+<div
+  id="screenshot-avatar-initials"
+  style="display: inline-block;"
+>
+  <sky-avatar
+    [name]="name"
+  ></sky-avatar>
+</div>
+
+<div
+  id="screenshot-avatar-sizes"
+  style="display: inline-block;"
+>
 
   <div style="display: inline-block;">
     <sky-avatar
@@ -22,8 +33,7 @@
       size="large"
       src="~/assets/avatar.png"
       [canChange]="true"
-    >
-    </sky-avatar>
+    ></sky-avatar>
   </div>
 
   <div style="display: inline-block;">
@@ -39,8 +49,7 @@
       size="medium"
       src="~/assets/avatar.png"
       [canChange]="true"
-    >
-    </sky-avatar>
+      ></sky-avatar>
   </div>
 
   <div style="display: inline-block;">
@@ -56,8 +65,7 @@
       size="small"
       src="~/assets/avatar.png"
       [canChange]="true"
-    >
-    </sky-avatar>
+      ></sky-avatar>
   </div>
 
   <div style="display: inline-block;">

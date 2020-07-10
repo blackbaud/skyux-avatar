@@ -17,6 +17,10 @@ import {
 } from './avatar-adapter.service';
 
 import {
+  SkyAvatarSize
+} from './avatar-size';
+
+import {
   SkyAvatarSrc
 } from './avatar-src';
 
@@ -51,7 +55,7 @@ export class SkyAvatarInnerComponent implements AfterViewInit, OnDestroy {
   }
 
   @Input()
-  public size: 'large' | 'medium' | 'small';
+  public size: SkyAvatarSize;
 
   private viewInitialized: boolean;
 

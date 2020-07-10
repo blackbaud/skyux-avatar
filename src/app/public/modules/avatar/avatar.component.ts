@@ -21,6 +21,10 @@ import {
 } from '@skyux/i18n';
 
 import {
+  SkyAvatarSize
+} from './avatar-size';
+
+import {
   SkyAvatarSrc
 } from './avatar-src';
 
@@ -87,7 +91,7 @@ export class SkyAvatarComponent {
    * Specifies the size of the avatar. Default is "large".
    */
   @Input()
-  public size: 'large' | 'medium' | 'small' = 'large';
+  public size: SkyAvatarSize = 'large';
 
   /**
    * Emits a `SkyFileItem` object when the image is updated.

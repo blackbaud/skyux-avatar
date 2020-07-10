@@ -1,4 +1,10 @@
-import { Component } from '@angular/core';
+import {
+  Component
+} from '@angular/core';
+
+import {
+  SkyAvatarSize
+} from '../avatar-size';
 
 import {
   SkyAvatarSrc
@@ -13,5 +19,5 @@ export class AvatarTestComponent {
 
   public name: string;
 
-  public size: 'large' | 'medium' | 'small';
+  public size: SkyAvatarSize;
 }
