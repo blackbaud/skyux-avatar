@@ -1,6 +1,6 @@
 {
   "name": "@skyux/avatar",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "SKY UX Avatar",
   "scripts": {
     "build": "skyux build-public-library",
