@@ -4,9 +4,12 @@ import {
 } from '@angular/core';
 
 import {
+  SkyDocsDemoControlPanelChange
+} from '@skyux/docs-tools';
+
+import {
   SkyFileItem
 } from '@skyux/forms';
-import { SkyDocsDemoControlPanelChange } from '@skyux/docs-tools';
 
 @Component({
   selector: 'app-avatar-docs',
