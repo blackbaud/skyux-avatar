@@ -30,11 +30,6 @@
       "theme": "default"
     }
   },
-  "librarySettings": {
-    "whitelistedNonPeerDependencies": [
-      "moment"
-    ]
-  },
   "testSettings": {
     "e2e": {
       "browserSet": "speedy"
