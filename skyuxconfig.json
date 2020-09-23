@@ -6,6 +6,30 @@
   "plugins": [
     "@skyux-sdk/builder-plugin-skyux"
   ],
+  "host": {
+    "url": "https://developer.blackbaud.com",
+    "frameOptions": {
+      "none": true
+    }
+  },
+  "omnibar": {},
+  "params": {
+    "svcid": {
+      "value": "skyux"
+    }
+  },
+  "app": {
+    "styles": [
+      "@skyux/docs-tools/css/docs-tools.css"
+    ],
+    "theming": {
+      "supportedThemes": [
+        "default",
+        "modern"
+      ],
+      "theme": "default"
+    }
+  },
   "testSettings": {
     "e2e": {
       "browserSet": "speedy"
@@ -14,14 +38,16 @@
       "browserSet": "paranoid"
     }
   },
-  "app": {
-    "styles": [
-      "@skyux/docs-tools/css/docs-tools.css"
-    ]
-  },
-  "host": {
-    "frameOptions": {
-      "none": true
+  "pipelineSettings": {
+    "vsts": {
+      "testSettings": {
+        "e2e": {
+          "browserSet": false
+        },
+        "unit": {
+          "browserSet": false
+        }
+      }
     }
   }
 }
