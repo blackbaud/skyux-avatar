@@ -24,7 +24,7 @@
     "message": "Profile picture of {0}"
   },
   "skyux_avatar_upload_change_aria_label": {
-    "_description": "Accesibility text for when an avatar image can be chnaged.",
+    "_description": "Accesibility text for when an avatar image can be changed.",
     "message": "Change profile photo of {0}. Drag a file here or click to browse."
   },
   "skyux_avatar_upload_new_aria_label": {

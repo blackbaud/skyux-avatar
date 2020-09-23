@@ -6,7 +6,9 @@
     class="sky-avatar-image"
     [hidden]="!src"
   ></div>
-  <div *ngIf="src" class="sky-screen-reader-only">
+  <div *ngIf="src"
+    class="sky-screen-reader-only"
+  >
     {{'skyux_avatar_inner_description' | skyLibResources:name}}
   </div>
   <div
