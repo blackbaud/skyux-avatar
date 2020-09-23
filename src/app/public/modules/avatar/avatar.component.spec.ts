@@ -184,7 +184,7 @@ describe('Avatar component', () => {
 
     const screenReaderEl: HTMLElement = <HTMLElement>getScreenReaderEl(el);
     expect(screenReaderEl).not.toBeNull();
-    expect(screenReaderEl.innerText.trim()).toBe('Profile picture of Robert Hernandez');
+    expect(screenReaderEl.textContent.trim()).toBe('Profile picture of Robert Hernandez');
   });
 
   it('should display the record name\'s initials when no image is specified', () => {
