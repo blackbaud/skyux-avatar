@@ -2,8 +2,9 @@
   <div *ngIf="canChange">
     <div class="sky-avatar-file-drop">
       <sky-file-drop
-        [multiple]="false"
         [acceptedTypes]="'image/*'"
+        [fileUploadAriaLabel]="src ? ('skyux_avatar_upload_change_aria_label' | skyLibResources:name) : ('skyux_avatar_upload_new_aria_label' | skyLibResources:name)"
+        [multiple]="false"
         [maxFileSize]="maxFileSize"
         (filesChanged)="photoDrop($event)">
         <sky-avatar-inner [src]="src" [name]="name"></sky-avatar-inner>
