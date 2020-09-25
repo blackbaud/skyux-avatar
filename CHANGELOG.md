@@ -1,6 +1,6 @@
 # 4.1.1 (2020-09-25)
 
-- Fixed the avatar component to properly set accessibility labels and text for screen reader users. [#44](https://github.com/blackbaud/skyux-avatar/pull/44)
+- Fixed the avatar component to properly set accessibility labels and text for screen readers. [#44](https://github.com/blackbaud/skyux-avatar/pull/44)
 
 # 4.1.0 (2020-07-21)
 
