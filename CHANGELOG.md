@@ -1,6 +1,6 @@
 # 4.1.2 (2020-11-16)
 
-- Fixed the avatar component to utilize appropriate units when alerting users that the image being uploaded is larger than the maximum file size. [#49](https://github.com/blackbaud/skyux-avatar/pull/49)
+- Fixed the avatar component to use appropriate units when alerting users that images are too large. [#49](https://github.com/blackbaud/skyux-avatar/pull/49)
 
 # 4.1.1 (2020-09-25)
 
