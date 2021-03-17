@@ -1,4 +1,4 @@
-# 4.1.3 (2020-03-16)
+# 4.1.3 (2020-03-17)
 
 - Replaced theme conditionals in templates with new skyIfTheme directive. [#52](https://github.com/blackbaud/skyux-avatar/pull/52)
 
