@@ -1,3 +1,9 @@
+# 5.0.0-beta.0 (2021-07-08)
+
+- Initial beta release.
+- Added support for `@angular/core@^12`. [#56](https://github.com/blackbaud/skyux-avatar/pull/56)
+- Added support for `5.0.0-beta.*` versions of SKY UX component libraries. [#56](https://github.com/blackbaud/skyux-avatar/pull/56)
+
 # 4.1.3 (2020-03-17)
 
 - Replaced theme conditionals in templates with the new `skyThemeIf` directive. [#52](https://github.com/blackbaud/skyux-avatar/pull/52)
