@@ -106,6 +106,11 @@ describe('Avatar component', () => {
 
     if (match && match.length > 0) {
       url = match[1];
+
+      // IE returns a slash around web URLs; account for this.
+      if (url.lastIndexOf('/') === url.length - 1) {
+        url = url.substr(0, url.length - 1);
+      }
     } else {
       url = '';
     }
