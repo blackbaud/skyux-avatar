@@ -1,4 +1,8 @@
-# 4.1.3 (2020-03-17)
+# 4.1.4 (2021-07-13)
+
+- Fixed the avatar component to allow for loading files with parenthesis in the file name. [#57](https://github.com/blackbaud/skyux-avatar/pull/57)
+
+# 4.1.3 (2021-03-17)
 
 - Replaced theme conditionals in templates with the new `skyThemeIf` directive. [#52](https://github.com/blackbaud/skyux-avatar/pull/52)
 
