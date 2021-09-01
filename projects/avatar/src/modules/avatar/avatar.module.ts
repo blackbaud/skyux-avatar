@@ -49,8 +49,7 @@ import { SkyAvatarResourcesModule } from '../shared/sky-avatar-resources.module'
     SkyFileSizePipe
   ],
   exports: [
-    SkyAvatarComponent,
-    SkyAvatarInnerComponent
+    SkyAvatarComponent
   ]
 })
 export class SkyAvatarModule { }
