@@ -1,4 +1,4 @@
-# 5.0.0-beta.2 (2021-09-02)
+# 5.0.0-beta.1 (2021-09-02)
 
 - Migrated to Angular CLI. [#59](https://github.com/blackbaud/skyux-avatar/pull/59)
 
