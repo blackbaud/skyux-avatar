@@ -1,1 +1,3 @@
-<router-outlet></router-outlet>
+<div *ngIf="isLoaded" [@.disabled]="true">
+  <router-outlet></router-outlet>
+</div>

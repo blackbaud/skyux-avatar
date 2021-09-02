@@ -27,20 +27,20 @@ describe('Avatar', () => {
     return name;
   }
 
-  async function validateImage(done: DoneFn): Promise<void> {
-    await expect('#screenshot-avatar-img').toMatchBaselineScreenshot(done, {
+  function validateImage(done: DoneFn): void {
+    expect('#screenshot-avatar-img').toMatchBaselineScreenshot(done, {
       screenshotName: getScreenshotName('avatar')
     });
   }
 
-  async function validateIinitials(done: DoneFn): Promise<void> {
-    await expect('#screenshot-avatar-initials').toMatchBaselineScreenshot(done, {
+  function validateIinitials(done: DoneFn): void {
+    expect('#screenshot-avatar-initials').toMatchBaselineScreenshot(done, {
       screenshotName: getScreenshotName('avatar-initials')
     });
   }
 
-  async function validateSizes(done: DoneFn): Promise<void> {
-    await expect('#screenshot-avatar-sizes').toMatchBaselineScreenshot(done, {
+  function validateSizes(done: DoneFn): void {
+    expect('#screenshot-avatar-sizes').toMatchBaselineScreenshot(done, {
       screenshotName: getScreenshotName('avatar-sizes')
     });
   }
