@@ -1,3 +1,7 @@
+# 5.0.0-beta.1 (2021-09-02)
+
+- Migrated to Angular CLI. [#59](https://github.com/blackbaud/skyux-avatar/pull/59)
+
 # 4.1.4 (2021-07-13)
 
 - Fixed the avatar component to let users load files with a parenthesis in the filename. [#57](https://github.com/blackbaud/skyux-avatar/pull/57)

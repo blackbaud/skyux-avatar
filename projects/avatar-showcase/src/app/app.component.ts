@@ -1,5 +1,5 @@
 import { Component, Renderer2 } from '@angular/core';
-import { SkyTheme, SkyThemeMode, SkyThemeService, SkyThemeSettings } from '@skyux/theme';
+import { SkyAppStyleLoader, SkyTheme, SkyThemeMode, SkyThemeService, SkyThemeSettings } from '@skyux/theme';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +8,12 @@ import { SkyTheme, SkyThemeMode, SkyThemeService, SkyThemeSettings } from '@skyu
 })
 export class AppComponent {
 
+  public isLoaded = false;
+
   constructor(
     renderer: Renderer2,
-    themeService: SkyThemeService
+    themeService: SkyThemeService,
+    styleLoader: SkyAppStyleLoader
   ) {
     themeService.init(
       document.body,
@@ -20,5 +23,10 @@ export class AppComponent {
         SkyThemeMode.presets.light
       )
     );
+
+    styleLoader.loadStyles().then(() => {
+      this.isLoaded = true;
+    });
   }
+
 }
