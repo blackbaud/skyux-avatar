@@ -3,6 +3,11 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
+      "@skyux/avatar": [
+        "node_modules/@skyux/avatar",
+        "dist/avatar",
+        "projects/avatar/src/public-api.ts"
+      ],
       "avatar": [
         "dist/avatar/avatar",
         "dist/avatar"

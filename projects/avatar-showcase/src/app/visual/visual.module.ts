@@ -5,7 +5,7 @@ import { AvatarVisualComponent } from './avatar/avatar-visual.component';
 import { VisualComponent } from './visual.component';
 import { RouterModule } from '@angular/router';
 import { SkyAvatarModule } from 'projects/avatar/src/public-api';
-import { SkyDocsToolsModule } from '@skyux/docs-tools';
+import { SkyE2eThemeSelectorModule } from '@skyux/e2e-client'
 
 
 
@@ -19,7 +19,7 @@ import { SkyDocsToolsModule } from '@skyux/docs-tools';
     NoopAnimationsModule,
     RouterModule,
     SkyAvatarModule,
-    SkyDocsToolsModule
+    SkyE2eThemeSelectorModule
   ]
 })
 export class VisualModule { }
