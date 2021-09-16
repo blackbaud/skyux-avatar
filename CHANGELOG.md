@@ -1,3 +1,7 @@
+# 5.0.0-beta.3 (2021-9-16)
+
+- Updated peer dependencies. [#64](https://github.com/blackbaud/skyux-avatar/pull/64)
+
 # 5.0.0-beta.2 (2021-09-09)
 
 - Updated peer dependencies. [#61](https://github.com/blackbaud/skyux-avatar/pull/61)
