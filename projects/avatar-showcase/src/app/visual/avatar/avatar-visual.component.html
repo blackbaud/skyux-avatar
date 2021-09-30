@@ -1,0 +1,85 @@
+<div
+  class="sky-padding-even-default"
+>
+  <label
+    class="sky-control-label"
+  >
+    Theme:
+    <sky-e2e-theme-selector></sky-e2e-theme-selector>
+  </label>
+</div>
+
+<div
+  id="screenshot-avatar-img"
+  style="display: inline-block;"
+>
+  <sky-avatar
+    [name]="name"
+    src="~/assets/avatar.png"
+    [canChange]="true"
+  ></sky-avatar>
+</div>
+
+<div
+  id="screenshot-avatar-initials"
+  style="display: inline-block;"
+>
+  <sky-avatar
+    [name]="name"
+  ></sky-avatar>
+</div>
+
+<div
+  id="screenshot-avatar-sizes"
+  style="display: inline-block;"
+>
+
+  <div style="display: inline-block;">
+    <sky-avatar
+      name="L G"
+      size="large"
+      src="~/assets/avatar.png"
+      [canChange]="true"
+    ></sky-avatar>
+  </div>
+
+  <div style="display: inline-block;">
+    <sky-avatar
+      name="L G"
+      size="large"
+    ></sky-avatar>
+  </div>
+
+  <div style="display: inline-block;">
+    <sky-avatar
+      name="M D"
+      size="medium"
+      src="~/assets/avatar.png"
+      [canChange]="true"
+      ></sky-avatar>
+  </div>
+
+  <div style="display: inline-block;">
+    <sky-avatar
+      name="M D"
+      size="medium"
+    ></sky-avatar>
+  </div>
+
+  <div style="display: inline-block;">
+    <sky-avatar
+      name="S M"
+      size="small"
+      src="~/assets/avatar.png"
+      [canChange]="true"
+      ></sky-avatar>
+  </div>
+
+  <div style="display: inline-block;">
+    <sky-avatar
+      name="S M"
+      size="small"
+    ></sky-avatar>
+  </div>
+
+</div>
