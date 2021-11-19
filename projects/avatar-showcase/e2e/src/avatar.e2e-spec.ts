@@ -1,8 +1,4 @@
-import {
-  expect,
-  SkyHostBrowser,
-  SkyVisualThemeSelector
-} from '@skyux-sdk/e2e';
+import { expect, SkyHostBrowser, SkyVisualThemeSelector } from '@skyux-sdk/e2e';
 
 describe('Avatar', () => {
   let currentTheme: string;
@@ -29,19 +25,19 @@ describe('Avatar', () => {
 
   function validateImage(done: DoneFn): void {
     expect('#screenshot-avatar-img').toMatchBaselineScreenshot(done, {
-      screenshotName: getScreenshotName('avatar')
+      screenshotName: getScreenshotName('avatar'),
     });
   }
 
   function validateIinitials(done: DoneFn): void {
     expect('#screenshot-avatar-initials').toMatchBaselineScreenshot(done, {
-      screenshotName: getScreenshotName('avatar-initials')
+      screenshotName: getScreenshotName('avatar-initials'),
     });
   }
 
   function validateSizes(done: DoneFn): void {
     expect('#screenshot-avatar-sizes').toMatchBaselineScreenshot(done, {
-      screenshotName: getScreenshotName('avatar-sizes')
+      screenshotName: getScreenshotName('avatar-sizes'),
     });
   }
 
