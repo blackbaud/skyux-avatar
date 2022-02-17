@@ -1,3 +1,6 @@
+# 5.0.2 (2022-02-18)
+- Fixed default value punctuation. [#70](https://github.com/blackbaud/skyux-avatar/pull/70)
+
 # 5.0.1 (2021-11-19)
 
 - Added support for Prettier code formatting and updated the builder to support StackBlitz. [#67](https://github.com/blackbaud/skyux-avatar/pull/67)
