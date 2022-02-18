@@ -77,7 +77,7 @@ export class SkyAvatarComponent {
 
   /**
    * Specifies the size of the avatar.
-   * Acceptable values are: `small`, `medium`, and `large`.
+   * Acceptable values are: `"small"`, `"medium"`, and `"large"`.
    * @default "large"
    */
   @Input()
